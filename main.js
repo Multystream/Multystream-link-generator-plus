@@ -115,10 +115,10 @@ function obfuscateURL(element) {
         input = input.replace('obs.ninja/', '');
     }
     
-    if (input.startsWith("https://vdo.ninja/")) {
-        input = input.replace('https://vdo.ninja/', 'vdo.ninja/');
-    } else if (input.startsWith("http://vdo.ninja/")) {
-        input = input.replace('http://vdo.ninja/', 'vdo.ninja/');
+    if (input.startsWith("https://multystream.github.io/")) {
+        input = input.replace('https://multystream.github.io/', 'vdo.ninja/');
+    } else if (input.startsWith("http://multystream.github.io/")) {
+        input = input.replace('http://multystream.github.io/', 'vdo.ninja/');
     } 
 
     var key = "OBSNINJAFORLIFE";
@@ -155,12 +155,12 @@ function betaURL(element) {
         input = input.replace('obs.ninja/', 'https://obs.ninja/beta/');
     }
     
-    if (input.startsWith("https://vdo.ninja/")) {
-        input = input.replace('https://vdo.ninja/', 'https://vdo.ninja/beta/');
-    } else if (input.startsWith("http://vdo.ninja/")) {
-        input = input.replace('http://vdo.ninja/', 'https://vdo.ninja/beta/');
+    if (input.startsWith("https://multystream.github.io/")) {
+        input = input.replace('https://multystream.github.io/', 'https://multystream.github.io/beta/');
+    } else if (input.startsWith("http://multystream.github.io/")) {
+        input = input.replace('http://multystream.github.io/', 'https://multystream.github.io/beta/');
     } else if (input.startsWith("vdo.ninja/")) {
-        input = input.replace('vdo.ninja/', 'https://vdo.ninja/beta/');
+        input = input.replace('vdo.ninja/', 'https://multystream.github.io/beta/');
     }
     return input;
 }
